@@ -1,0 +1,410 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background: rgb(136, 133, 131);
+}
+
+
+ label #btn,
+label #cancel{
+ color: rgb(255, 255, 255);
+ font-size: 30px;
+ line-height: 80px;
+ cursor: pointer;
+ display: none;
+ margin-left: 40pc;
+}
+#check{
+ display: none;
+} 
+
+
+
+
+
+
+
+
+
+
+/* .navbar .btn1,
+.navbar .btn2{
+    font-size: 26px;
+    color: white;
+   
+    margin-right:  40px; 
+    line-height: 20px;
+    margin: 30px;
+    cursor: pointer;
+    float: left;
+    display: none; 
+} */
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(95, 83, 83); 
+    padding: 20px 0px;
+    
+
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    transition: all.5s ease;
+    
+
+}
+
+.navbar ul li {
+    margin: 10px;
+    font-family: century;
+}
+
+.navbar ul li a {
+    font-size: 25px;
+    color: rgb(209, 66, 66);
+    text-decoration: none;
+    padding: 10px 20px;
+    
+   
+}
+
+.navbar ul li a:hover {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    box-shadow: 0 0 15px rgb(255, 255, 255);
+    border-radius: 10px;
+
+}
+
+/* homm */
+#Home {
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+}
+
+#Home::before {
+    content: "";
+    position: absolute;
+    top: 0%;
+    right: 0;
+    background: url(./image/hero-bg.jpg);
+    height: 700px;
+    width: 100%;
+    z-index: -1;
+    opacity: .8;
+
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 15pc;
+
+    /* right: 10pc; */
+}
+
+.heading {
+    font-size: 4rem;
+    text-align: center;
+    color: rgb(209, 66, 66);
+    margin: 30px 0px;
+}
+
+.heading2 {
+    font-size: 3rem;
+    padding: 10px 0px;
+    color: rgb(209, 66, 66);
+}
+
+.btn {
+    padding: 12px 30px;
+    border: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    font-size: 1.5rem;
+    font-weight: 600;
+    background-color: rgb(41, 32, 32);
+    transition: all.8s ease;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: white;
+    color: rgb(209, 66, 66);
+    border-radius: 10px;
+    box-shadow: 0 0 0 5 red 0 0 0 10 red 0 0 0 15 red;
+}
+
+/* about */
+#About {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin-top: 40pc;
+    /* padding: 20px ; */
+    margin-bottom: 50px;
+    
+    
+}
+
+.pic {
+    display: flex;
+    /* background-color: rgb(114, 133, 219); */
+}
+
+.pic img {
+    width: 575px;
+    height: 400px;
+    padding: 10px;   
+    border-radius: 20px;
+    
+}
+.heading3{
+    font-size: 3rem;
+    text-align: center;
+    padding: 20px;
+    color: aliceblue;
+}
+.para{
+ display: flex;
+ flex-direction: column;
+ text-align: center;
+ padding: 10px;  
+ color: white; 
+ 
+}
+
+.para h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+    /* color: white; */
+}
+
+
+
+/* portfolio */
+
+
+.heading4{
+    text-align: center;
+    font-size: 3rem;
+    padding: 20px;
+    color: white;
+}
+#porfolio{
+    display: flex;
+    flex-direction: column;
+    
+}
+.col{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px 20px;
+    justify-content: space-around;
+    padding: 30px;
+    /* background-color: rgb(75, 75, 172); */
+
+  
+}
+.col img{
+    display: flex;
+    width: 360px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+
+/* education */
+#education{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+
+    
+
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    /* background: rgb(122, 122, 175); */
+}
+.col2{
+    flex-direction: column;
+    display: flex;
+    width: 400px;
+    height: 300px;
+    margin: 15px;
+    /* border: 1px solid black ; */
+    text-align: justify;
+    align-items: center;
+    padding: 20px;
+    border-radius: 15px;
+    background: linear-gradient(to top,rgb(255,45,45 )  50%, white 50% );
+    background-size:100% 200%;
+    transition: all .8s;
+    justify-content: space-around;
+    
+}
+.col2:hover{
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 20px rgb red ;
+}
+
+.col2 p{
+   
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+  
+  
+}
+
+
+.heading9{
+    text-align: center;
+    font-size: 3rem;
+    padding: 20px;
+    color: white;
+}
+.headings{
+    font-size: 30px;
+}
+
+/* skills */
+
+
+#skills{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    
+
+}
+.box{
+    display: flex;
+}
+.col3{
+    flex-direction: column;
+    display: flex;
+    width: 350px;
+    height: 450px;
+    margin: 15px;
+    /* border: 1px solid black ; */
+    text-align: justify;
+    align-items: center;
+    padding: 20px;
+    border-radius: 15px;
+    background: linear-gradient(to top,rgb(255,45,45 )  50%, white 50% );
+    background-size:100% 200%;
+    transition: all .8s;
+    justify-content: space-around;
+    
+}
+.col3:hover{
+    background-position: left bottom;
+    color: white;
+    border: none;
+    box-shadow: 0 0 20px rgb red ;
+}
+
+/* .col2 p{
+   
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+  
+  
+} */
+
+
+.heading10{
+    text-align: center;
+    font-size: 3rem;
+    padding: 20px;
+    color: white;
+}
+.hed{
+    font-size: 30px;
+}
+
+
+
+
+/* contact */
+
+
+
+.heading11{
+    font-size: 40px;
+    text-align: center;
+    padding: 10px 30px;
+    color: white;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    align-items: center;
+    padding: 30px 0px;
+    
+}
+
+.form2{
+    display: flex;
+    flex-direction: column;
+     padding: 10px 20px;
+    align-items: center;
+    background: rgb(90, 83, 75);
+}
+.form2 input , textarea{
+    padding:  15px;
+    font-size: large;
+    width: 30pc;
+    margin: 15px;
+    /* outline: none; */
+    border: none;
+  outline: none;
+  border-radius: 10px;
+
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+@media ( max-width: 800px){
+
+    #About {
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
+     */

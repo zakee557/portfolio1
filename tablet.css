@@ -1,0 +1,164 @@
+
+
+
+
+
+ label #btn{
+    display: block;
+  }
+
+  #check:checked ~ label #btn{
+    display: none;
+  } 
+  #check:checked ~ label #cancel{
+    display: block;
+  } 
+
+  #check:checked ~ ul{
+    left:0px;
+  } 
+
+/* .navbar .icon{
+    font-size: 26px;
+    color: white;
+    margin-right:  80px;
+    line-height: 80px;
+    cursor: pointer;
+    float: right;
+    display: block;
+}
+
+.navbar .btn1{
+    font-size: 26px;
+    color: white;
+    margin-right:  450px;
+    line-height: 80px;
+    cursor: pointer;
+    float: right;
+    display: block;
+} */
+
+
+
+
+
+
+
+.navbar {
+  
+     /* display: flex;
+    flex-direction: column;  */
+    justify-content: center;
+  
+    
+   
+}
+
+
+
+.navbar ul{
+    flex-direction: column;
+    display: flex;
+    top: 80px;
+    left: 0%;
+    position: absolute;
+    width: 100pc;
+    height: 100vh;
+   /* background: red; */
+    text-align: center;
+    display: none; 
+   
+
+   
+    
+}
+.navbar ul li{
+    display: block;
+    margin:  50px 0;
+    line-height: 30px;
+  }
+  .navbar  ul li a{
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+  }
+/* 
+  .navbar ul.show{
+    left: 0%;
+  } */
+  /* .sect{
+    background: url(./image/hero-bg.jpg)no-repeat;
+  background-size: cover;
+height: calc(100vh - 80px);  } */
+
+  /* home */
+
+
+  #Home{
+    margin: auto;
+  }
+
+
+
+
+
+
+
+/* about */
+
+ .pic{
+    flex-direction: column;
+    align-items: center;
+} 
+.pic img{
+    width: 475px;
+    height: 300px;
+}
+.pic p{
+    font-size: 1.3rem;
+}
+
+
+
+
+.box{
+    flex-direction: column;
+   
+    align-items: center;
+    /* width: 400px;  */
+    height: 300px;
+
+}
+
+
+
+/* education */
+
+
+
+
+
+/* #education{
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}  */
+#education .row{
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+ 
+
+
+
+
+
+
+
+.heading11{
+  margin-top: 8pc;
+}
+
+
+
